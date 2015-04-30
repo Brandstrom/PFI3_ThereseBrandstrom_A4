@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.therese.a4_theresebrandstrom.fragment2"
+    android:background="#ff000000">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Planet Info"
+        android:id="@+id/textplanetinfo"
+        android:layout_gravity="left|top"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="156dp"
+        android:text="New Text"
+        android:id="@+id/Image"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@mipmap/mars" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:text="This is information about the very beautiful planet Mars. I dont know stuff about that planet but one thing I know is that they found water on that planet. I think!"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:background="@color/abc_primary_text_material_light"
+        android:textColor="#ffffffff" />
+
+</FrameLayout>
